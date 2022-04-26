@@ -4,4 +4,4 @@
 - 👀 I’m interested in be happy =DD!!
 - 🌱 I’m currently learning Introduction to JavaScript :)!
 
-![mifoto] (elcri0.jpg)
+![mifoto](elcri0.jpg)
