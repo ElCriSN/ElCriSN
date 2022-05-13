@@ -38,3 +38,10 @@ body {
   }
 
 }
+.navbar{
+  background-color: aliceblue;
+}
+.logo-{
+  height: 50px;
+  width: 50px;
+}
