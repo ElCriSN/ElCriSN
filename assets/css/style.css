@@ -33,15 +33,21 @@ body {
     font-weight: 400;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     width: 100px;
   }
 
 }
-.navbar{
+
+.navbar {
   background-color: aliceblue;
 }
-.logo-{
+
+.logo- {
   height: 50px;
   width: 50px;
+}
+
+.bg-fondo {
+  background-color: #15133C;
 }
