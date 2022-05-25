@@ -31,26 +31,7 @@
                 ¡Hola! :)!
             </button>
 
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Bienvenidos a la página amigooos jajajajaa
-                                :)!!</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            Hi! =DD!!
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
             <div class="dropdown">
                 <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1"
                     data-bs-toggle="dropdown" aria-expanded="false">
@@ -166,15 +147,14 @@
     </section>
 
 
-    <section id="mis-trabajos" class="my-5 p-5 bg-fondo">
+    <section id="mis-trabajos" class="container-fluid py-5 bg-fondo">
 
         <h2 class="display-4 fw-bold text-center text-light mb-3">Mis trabajos</h2>
-        
-        
-        <div class="row">
-            <div class="col-12 col-sm-4 py-2">
-                <div class="card" style="width: 18rem;">
-                  <img src="assets/img/photo0po.PNG" class="card-img-top" alt="trabajo con HTML 1 ADL =DDDDDD!!">
+
+        <div class="row justify-content-evenly mx-auto">
+            <div class="col-12 col-sm-6 col-md-3 py-2">
+                <div class="card">
+                    <img src="assets/img/photo0po.PNG" class="card-img-top" alt="trabajo con HTML 1 ADL =DDDDDD!!">
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Primer Trabajo en la ADL (HTML)</h5>
                         <p class="card-text">
@@ -187,11 +167,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-4 py-2">
-            <div class="card" style="width: 18rem;">
-              <img src="assets/img/photo1po.PNG" class="card-img-top" alt="trabajo con CSS 2 ADL =DDDD!!">
-              <div class="card-body">
-               <h5 class="card-title fw-bold">Segundo Trabajo en la ADL (CSS)</h5>
+            <div class="col-12 col-sm-6 col-md-3 py-2">
+                <div class="card">
+                    <img src="assets/img/photo1po.PNG" class="card-img-top" alt="trabajo con CSS 2 ADL =DDDD!!">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Segundo Trabajo en la ADL (CSS)</h5>
                         <p class="card-text">
                             Nuestro trabajo lo dedicamos a aprender a hacer una Landing-Page, para aprender usar HTML,
                             CSS y mezclarlos
@@ -202,69 +182,75 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-4 py-2">
-              <div class="card" style="width: 18rem;">
-                  <img src="assets/img/photo2po.PNG" class="card-img-top" alt="trabajo Boostrap 4 ADL =DDDDD!!">
-                  <div class="card-body">
-                            <h5 class="card-title fw-bold">Cuarto Trabajo en ADL (Bootstrap)</h5>
-                            <p class="card-text">
-                                Aprendimos a crear una página con HTML, CSS, JavaScript y Boostrap, mezclando nuestros
-                                conocimientos y aprendiendo a crear una página positiva
-                            </p>
-                            <button type="button" class="btn btn-outline-info">
-                                <a href="https://elcrisn.github.io/challenge4adl/challenge4.html">Ver más</a>
-                            </button>
-                   </div>
+            <div class="col-12 col-sm-6 col-md-3 py-2">
+                <div class="card">
+                    <img src="assets/img/photo2po.PNG" class="card-img-top" alt="trabajo Boostrap 4 ADL =DDDDD!!">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Cuarto Trabajo en ADL (Bootstrap)</h5>
+                        <p class="card-text">
+                            Aprendimos a crear una página con HTML, CSS, JavaScript y Boostrap, mezclando nuestros
+                            conocimientos y aprendiendo a crear una página positiva
+                        </p>
+                        <button type="button" class="btn btn-outline-info">
+                            <a href="https://elcrisn.github.io/challenge4adl/challenge4.html">Ver más</a>
+                        </button>
+                    </div>
                 </div>
             </div>
-
         </div>
 
     </section>
     <section id="contacto" class="container my-5">
-
         <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
 
         <p class="text-center my-4 d-none d-md-block">
             ¡¡¡ Estoy encantado de conocernos, por favor, escríbamos para conversar, qué es muy bueno para la Salud
             👍!!!
         </p>
-
         <form>
-
-
             <div class="form-group mb-4">
                 <label class="mb-2">Nombre</label>
                 <input class="form-control" placeholder="Nombre">
             </div>
-
             <div class="form-group mb-4">
                 <label class="mb-2">Correo electrónico</label>
                 <input class="form-control" placeholder="Correo electrónico" />
             </div>
 
-
             <div class="form-group">
                 <label class="mb-2">Mensaje</label>
                 <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
             </div>
-
             <div class="my-3 text-end">
                 <button class="btn btn-info text-light">Enviar</button>
             </div>
-
-
-
         </form>
-
     </section>
+
+    <!-- Modals-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Bienvenidos a la página amigooos jajajajaa
+                        :)!!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Hi! =DD!!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
     <footer class="bg-dark text-center text-light p-4">
         <p class="mb-0">Cristian Faúndez 2022 👍!!. Todos los derechos reservados @github.com/ElCriSN 😁 !!!!</p>
     </footer>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
