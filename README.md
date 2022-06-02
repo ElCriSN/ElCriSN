@@ -8,6 +8,8 @@
 
 <img src="https://github-readme-stats.vercel.app/api?username=elcrisn" height="200"/>
 
+ <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=elcrisn"  height="200"/
+
 Link a la página del Portafolio :) !!: https://elcrisn.github.io/ElCriSN/ 👍!!!
 
 Link al código de la primera bifurcación :)!!: https://github.com/ElCriSN/desafiogit-gitpages/ Link a la página de la primera bifurcación :)!!: https://elcrisn.github.io/desafiogit-gitpages/
