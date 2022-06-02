@@ -8,7 +8,7 @@
 
 <img src="https://github-readme-stats.vercel.app/api?username=elcrisn" height="200"/>
 
- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=elcrisn"  height="200"/
+ <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=elcrisn"  height="200"/>
 
 Link a la página del Portafolio :) !!: https://elcrisn.github.io/ElCriSN/ 👍!!!
 
